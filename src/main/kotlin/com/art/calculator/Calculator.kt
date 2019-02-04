@@ -93,7 +93,3 @@ private fun MutableList<String>.appendToLastDigit(digit: String) {
     add(last + digit)
 }
 
-private fun Char.isOperator(): Boolean =
-    this == '+' || this == '-' || this == '/' ||
-            this == '*' || this == '(' || this == ')'
-
