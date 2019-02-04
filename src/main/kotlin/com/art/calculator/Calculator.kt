@@ -64,7 +64,7 @@ class Calculator(private val expression: List<String>) {
         return value
     }
 }
-
+//worst extractions
 fun String.extractExpression(): List<String> {
     val result = mutableListOf<String>()
     val input = this.replace(" ", "")
